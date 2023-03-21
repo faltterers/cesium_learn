@@ -5,3 +5,6 @@ Cesium个人学习笔记
 
 Cesium的调用需要申请Token。
 Viewer里的控件均可进行隐藏和修改。
+
+imagerylayers对图层的改动，在调用前需先在cesium ion里把相应的图层资源启用，再根据相应的ID添加。
+不同api的调用也就是这里处理。
