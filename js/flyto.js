@@ -48,7 +48,7 @@ viewer.scene.camera.setView(homeCameraView);
 
 //flyto的设置
 
-//修改移动摄像头时的动画效果的参数
+//修改移动摄像头时的动画效果的参数，自定义
 homeCameraView.duration = 2.0;
 homeCameraView.maximumHeight = 2000;
 homeCameraView.pitchAdjustHeight = 2000;
