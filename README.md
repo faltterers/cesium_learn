@@ -17,3 +17,6 @@ imagerylayers对图层的改动，在调用前需先在cesium ion里把相应的
 将这些构成一个类，在初始化view。
 
 动画效果自定义，重构homebutton时需注意将flyto()中的传递值改为原先设定的。
+
+clock的函数不多，shouldAnimate、startTime、stopTime、currentTime、multiplier、clockStep、clockRange，分别对应是否自动动画、时间条开始时间、时间条结束时间、现在时间、播放速率、播放速率变化方式、是否循环播放。
+在利用iewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime)  加载参数
