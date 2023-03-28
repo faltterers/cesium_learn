@@ -22,3 +22,5 @@ imagerylayers对图层的改动，在调用前需先在cesium ion里把相应的
 
 clock的函数不多，shouldAnimate、startTime、stopTime、currentTime、multiplier、clockStep、clockRange，分别对应是否自动动画、时间条开始时间、时间条结束时间、现在时间、播放速率、播放速率变化方式、是否循环播放。
 在利用iewer.timeline.zoomTo(viewer.clock.startTime, viewer.clock.stopTime)  加载参数
+
+entity的简单用法还是比较简单的，需要自定义使用什么直接查询便可知。
