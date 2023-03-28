@@ -8,7 +8,7 @@ Cesium个人学习笔记
 **大多数在前一个的基础上添加代码。**
 **html文件几乎没差别，仅修改引用的js**
 
-顺序为token、
+`顺序为token、viewer、imagerlayers、terrainprovider、setview、flyto、clock、3dtitle`
 
 Cesium的调用需要申请Token。
 Viewer里的控件均可进行隐藏和修改。
